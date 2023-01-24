@@ -8,4 +8,4 @@ Challenge 1 de Alura LATAM- Encriptador de texto, donde ponemos a prueba nuestra
 
 ## Contacto
 
-Puedes contactarme por [LinkedIn](https://www.linkedin.com/in/esteban-hernandez-26bb9b1a6)
+Puedes contactarme por [LinkedIn](https://www.linkedin.com/in/esteban-hernandez-26bb9b1a6) o ver mis proyectos en [GitHub](https://github.com/EstebanHernandez09?tab=repositories)
