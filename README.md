@@ -6,6 +6,10 @@ Challenge 1 de Alura LATAM- Encriptador de texto, donde ponemos a prueba nuestra
 - JavaScript
 - CSS3
 
+## Vista del proyecto
+
+![imagen](https://github.com/EstebanHernandez09/challenge_encriptador_texto/blob/2866c7b955296f7bc09a3aeb7144d7364d674f96/Imagenes/preview.png)
+
 ## Contacto:computer:
 
 Puedes contactarme por [LinkedIn](https://www.linkedin.com/in/esteban-hernandez-26bb9b1a6) o ver mis proyectos en [GitHub](https://github.com/EstebanHernandez09?tab=repositories)
