@@ -11,50 +11,49 @@ function encriptar(){
     console.log(separador);
 
     if(separador.length < 1){
-        console.log("Debe ingresar almenos un caracter para poder realizar la desencriptacion del texto");
-        /*Swal.fire({
+        Swal.fire({
             icon: 'info',
             title: 'Recuerde',
             text: 'Debe ingresar almenos un caracter para poder realizar la encriptacion del texto',
             confirmButtonColor: '#0A3871',
             confirmButtonText: 'Entiendo'
-        })*/
+        })
     }else{
         for(var i= 0; i < separador.length; i++ ){
             //console.log(separador[i]);
             if(separador[i] === "á" || separador[i] === "é" || separador[i] === "í" || separador[i] === "ó" || separador[i] === "ú"){
             console.log("Error!! Prohibido el uso de acentos");
-            /*Swal.fire({
+            Swal.fire({
                 icon: 'error',
                 title: 'Vaya error',
                 text: 'Recuerde, que esta prohibido el uso de acentos',
                 confirmButtonColor: '#0A3871',
                 confirmButtonText: 'Entiendo'
-            })  */
+            })  
             break;
             }
     
             if(separador[i].match(/[A-Z]/)){
                 console.log("Error!! Prohibido el uso de Mayusculas");
-                /*Swal.fire({
+                Swal.fire({
                     icon: 'error',
                     title: 'Vaya error',
                     text: 'Recuerde, que esta prohibido el uso de mayusculas',
                     confirmButtonColor: '#0A3871',
                     confirmButtonText: 'Entiendo'
-                }) */
+                }) 
                 break;
             }
             
             if(separador[i].match(/[.*+\-?^${}()|[\]\\]/g)){
                 console.log("Error!! encontrado caracter espcial "+ separador[i]);
-               /* Swal.fire({
+                Swal.fire({
                     icon: 'error',
                     title: 'Vaya error',
                     text: 'Se ha encontrado el siguiente caracter especial "'+ separador[i] + '", por tanto, no se puede encriptar el texto',
                     confirmButtonColor: '#0A3871',
                     confirmButtonText: 'Entiendo'
-                })*/
+                })
                 break;
             }  
     
@@ -87,51 +86,50 @@ function desencriptar(){
 
     //console.log(separador);
     if(separador.length < 1){
-        console.log("Debe ingresar almenos un caracter para poder realizar la desencriptacion del texto")
-       /* Swal.fire({
+        Swal.fire({
             icon: 'info',
             title: 'Recuerde',
             text: 'Debe ingresar almenos un caracter para poder realizar la desencriptacion del texto',
             confirmButtonColor: '#0A3871',
             confirmButtonText: 'Entiendo'
-        }) */
+        }) 
     }else{
         for(var i= 0;i < separador.length; i++ ){
 
             //console.log(separador[i]);
             if(separador[i] === "á" || separador[i] === "é" || separador[i] === "í" || separador[i] === "ó" || separador[i] === "ú"){
             console.log("Error!! Prohibido el uso de acentos");
-            /*Swal.fire({
+            Swal.fire({
                 icon: 'error',
                 title: 'Vaya error',
                 text: 'Recuerde, que esta prohibido el uso de acentos',
                 confirmButtonColor: '#0A3871',
                 confirmButtonText: 'Entiendo'
-            })  */  
+            })    
             break;
             }
 
             if(separador[i].match(/[A-Z]/)){
                 console.log("Error!! Prohibido el uso de Mayusculas");
-                /*Swal.fire({
+                Swal.fire({
                     icon: 'error',
                     title: 'Vaya error',
                     text: 'Recuerde, que esta prohibido el uso de mayusculas',
                     confirmButtonColor: '#0A3871',
                     confirmButtonText: 'Entiendo'
-                }) */
+                }) 
                 break;
             }
             
             if(separador[i].match(/[.*+\-?^${}()|[\]\\]/g)){
                 console.log("Error!! encontrado caracter especial "+ separador[i]);
-                /*Swal.fire({
+                Swal.fire({
                     icon: 'error',
                     title: 'Vaya error',
                     text: 'Se ha encontrado el siguiente caracter especial "'+ separador[i] + '", por tanto, no se puede encriptar el texto',
                     confirmButtonColor: '#0A3871',
                     confirmButtonText: 'Entiendo'
-                })*/
+                })
                 break;
             }
 
@@ -190,7 +188,7 @@ function copiarTexto(){
     content.select();
     document.execCommand('copy');
 
-   /* const Toast = Swal.mixin({
+    const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
         showConfirmButton: false,
@@ -204,7 +202,7 @@ function copiarTexto(){
      Toast.fire({
         icon: 'success',
         title: 'Texto copiado exitosamente'
-      })*/
+      })
 
 
 }
