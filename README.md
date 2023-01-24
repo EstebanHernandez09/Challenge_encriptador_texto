@@ -5,6 +5,7 @@ Challenge 1 de Alura LATAM- Encriptador de texto, donde ponemos a prueba nuestra
 - HTML
 - JavaScript
 - CSS3
+- SweetAlert2
 
 ## Vista del proyecto :computer:
 
